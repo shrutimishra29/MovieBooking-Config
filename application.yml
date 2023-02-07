@@ -6,3 +6,9 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: http://localhost:9005/eureka
+      
+management:
+  endpoint:
+    health:
+      show-details: always
+      enabled: true
